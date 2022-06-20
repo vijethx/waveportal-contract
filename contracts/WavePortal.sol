@@ -3,6 +3,8 @@ pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
 
+// TODO store msg.sender addresses in an array, display when called function allSenders()
+
 contract WavePortal {
   uint totalWaves;
 
